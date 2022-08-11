@@ -16,7 +16,7 @@ Please cite as:
 
 ## Framework
 本文提出了一种时间注意力深度学习模型(a **T**emporal **A**ttention-based Deep Learning **M**odel **TAM**)来处理多元变量空气质量数据中的缺失读数，其使用Attention机制来关注不同时间戳之间的相关性与不同特征时间序列之间的相关性，并结合短期历史数据，得到最终的预测结果。模型结构如图：  
-![Error](https://raw.githubusercontent.com/SY-Ma/Temporal-Attention-based-Deep-Learning-Model/main/images/%E6%A8%A1%E5%9E%8B%E6%9E%B6%E6%9E%84%E5%9B%BE%204.png)
+![Error](https://github.com/SY-Ma/Temporal-Attention-based-Deep-Learning-Model/blob/31ad7417d3c549ddc6f0530d037068989a76706d/images/%E6%A8%A1%E5%9E%8B%E6%9E%B6%E6%9E%84%E5%9B%BE%20%E5%BD%A9%E8%89%B2.png)
 
 ## Code
 - [TAM for Discrete Data](https://gitee.com/SY-M/temporal-attention-based-deep-learning-model/blob/master/Air%20quality%20Missing%20Data%20Imputation/model/imp_module_cla_TAM.py)
