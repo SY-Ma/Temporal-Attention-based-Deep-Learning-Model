@@ -3,8 +3,12 @@
 ***An Attentnion-based Deep Learning Model for filling missing values in Multivariate Air Quality Data***
 
 ## Abstract
->空气污染严重影响着人类的身体健康与社会的可持续发展，但传感器获取的多元变量空气质量数据往往存在缺失值，这为数据的分析与处理带来了困扰。目前许多对某一种空气成分变化的分析方法，只依赖于此属性的时间数据与空间数据，忽略了在相同时间区间内其他若干空气成分对此属性变化趋势的影响，且在离散型缺失数据的填充上难以达到理想的效果。本研究提出了一种时间注意力深度学习模型(TAM)，该模型使用注意力机制来关注不同时间戳之间的相关性与不同特征时间序列之间的相关性，并结合短期历史数据，来填充多元变量空气质量数据中的缺失读数。本文使用北京市的空气质量数据对所提出的方法进行评估，实验结果表明TAM相比较于其他十种基线模型具有优势。 
+>空气污染严重影响着人类的身体健康与社会的可持续发展，但传感器获取的多元变量空气质量数据往往存在缺失值，这为数据的分析与处理带来了困扰。目前许多对某一种空气成分变化的分析方法，只依赖于此属性的时间数据与空间数据，忽略了在相同时间区间内其他若干空气成分对此属性变化趋势的影响，且在离散型缺失数据的填充上难以达到理想的效果。本研究提出了一种时间注意力深度学习模型(TAM)，该模型使用注意力机制来关注不同时间戳之间的相关性与不同特征时间序列之间的相关性，并结合短期历史数据，来填充多元变量空气质量数据中的缺失读数。本文使用北京市的空气质量数据对所提出的方法进行评估，实验结果表明TAM相比较于其他十种基线模型具有优势。\
 >**关键词**: 空气质量、缺失值填充、Attention机制、深度学习
+
+>Air pollution has a serious impact on human health and the sustainable development of society, but the multivariate air quality data obtained by sensors generally have missing values which causes problems in data analysis and processing. Many existing methods in dealing with a certain air component only depend on its temporal and spatial information which ignores the interaction between different attributes, moreover they are difficult to achieve ideal results in the prediction of discrete missing data. This paper proposes a temporal attention-based deep learning model (TAM), which uses attention mechanism to focus on the correlation between different time stamps and the correlation between different feature time series, it also combines short-term historical data to fill in missing readings in multivariate air quality data. This paper uses the real air quality data of Beijing to evaluate our method, and the experimental results show that TAM has advantages over the other ten baseline models. \
+**Key words**: air quality; missing data imputation; attention mechanism; deep learning
+
 
 Please cite as:  
 `还没投:）`  
